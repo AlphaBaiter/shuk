@@ -22,6 +22,8 @@ Long description of module's purpose
 
     # always loaded
     'data': [
+        'models/product_grocery_template.py',
+        
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
