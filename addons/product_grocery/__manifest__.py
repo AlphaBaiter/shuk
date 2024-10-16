@@ -35,6 +35,6 @@ Long description of module's purpose
     ],
 
     'installable': 'true',
-    #'license': 'true',
+    'license': 'LGPL-3',
 }
 
