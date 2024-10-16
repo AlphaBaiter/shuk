@@ -9,9 +9,9 @@ class product_grocery(models.Model):
     _name = 'product_grocery.product'
     _description = 'Information about product_grocery'
 
+    name = fields.Char()
     no_inventory_management = fields.Boolean(string='No Inventory Management')
     
-    # name = fields.Char()
     # value = fields.Integer()
     # value2 = fields.Float(compute="_value_pc", store=True)
     # description = fields.Text()
