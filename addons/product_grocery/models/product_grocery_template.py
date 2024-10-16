@@ -1,4 +1,4 @@
--*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 
 from odoo import models, fields, api
 
@@ -6,8 +6,8 @@ from odoo import models, fields, api
 class product_grocery(models.Model):
     _inherit = 'product.template'
     
-    _name = 'product_grocery.product_grocery'
-    _description = 'product_grocery.product_grocery'
+    _name = 'product_grocery.product'
+    _description = 'Information about product_grocery'
 
     no_inventory_management = fields.Boolean(string='No Inventory Management')
     

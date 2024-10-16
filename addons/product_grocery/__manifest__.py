@@ -8,13 +8,13 @@
 Long description of module's purpose
     """,
 
-    'author': "My Company",
-    'website': "https://www.yourcompany.com",
+    'author': "AlphaBaiter",
+    'website': "https://www.alphabaiter.co.il",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
-    'category': 'Uncategorized',
+    'category': 'Sales/Sales',
     'version': '0.1',
 
     # any module necessary for this one to work correctly
@@ -24,7 +24,8 @@ Long description of module's purpose
     'data': [
         'models/product_grocery_template.py',
         
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
+        'security/product_grocery_security.xml',
         'views/views.xml',
         'views/templates.xml',
     ],
@@ -34,5 +35,6 @@ Long description of module's purpose
     ],
 
     'installable': 'true',
+    #'license': 'true',
 }
 
