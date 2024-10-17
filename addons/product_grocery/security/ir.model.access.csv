@@ -1,8 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_product_grocery_product_grocery,product_grocery.product_grocery,model_product_grocery_product_grocery,base.group_user,1,1,1,1
-
-access_product_gorcery_manager_id,access.product.grocery.manager,my_hostel.model_hostel_hostel,my_h
-ostel.group_product_grocery_manager,1,1,1,1
-access_product_gorcery_user_id,access.product.grocery.user,my_hostel.model_hostel_hostel,my_hostel.
-group_product_grocery_user,1,0,0,0
-
