@@ -6,7 +6,7 @@ from odoo import models, fields, api
 class ProductGrocery(models.Model):
     _name = 'product.product_grocery'
     _description = 'Product'
-    _inherit = 'product.product'
+    #_inherit = 'product.product'
 
     # חסימות
     max_sales = fields.Float(
